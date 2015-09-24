@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	  <!-- Fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet'>
+    <link href="http://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <!-- CSS pages -->
+    <link rel="stylesheet" href="css/navbar.css" media="all">
+    <link rel="stylesheet" href="css/slideshow.css" media="all">
+    <link rel="stylesheet" href="css/flipboard.css" media="all">
+    <link rel="stylesheet" href="css/style.css" media="all">
+
+    <title>My Website</title>
+</head>
+
+<body>
+	<div class="container-fluid nav">
+    <div class="row">
+        <div class="col-sm-12">
+            <ul class="navigationBar">
+              <!-- <li class="hidden">
+                <a href="#page-top"></a>
+              </li>
+               -->
+              <li class="page-scroll">
+                <button class="a1">Home</button>
+              </li>
+              <li>
+                <button class="a2">Bio</button>
+              </li>
+              <li>
+                <button class="a3">Projects</button>
+              </li>
+              <li>
+                <button class="a4">Playful</button>
+              </li>
+              <li>
+              	<button class="a5">Hackathons</button>
+              </li>
+              <li>
+                <button class="a6">My Goals</button>
+              </li>
+              <li>
+                <button class="a7">Contact Me</button>
+              </li>
+            </ul> 
+          </div>
+        </div>
+    </div>
+		
+       <div id="slideshow">
+          <div>
+            <img src="htmlpictures/harshMain.jpg" class="img-responsive img-thumbnail" alt="picture of me">
+          </div>
+          <div>
+            <img src="htmlpictures/harshAdventurous1.jpg" class="img-responsive img-thumbnail" alt="picture of me">
+          </div>
+          <div>
+            <img src="htmlpictures/harshRunning.jpg" class="img-responsive img-thumbnail" alt="picture of me">
+          </div>
+          <div>
+            <img src="htmlpictures/harshOrganized.jpg" class="img-responsive img-thumbnail" alt="picture of me"> <!-- adding class img-thumbnail solved centering issues -->
+          </div>
+      </div>
+
+      <div class="seperator sep1"></div>
+  
+      <div id="bio" class="container">
+        <h2> A Quick Biography of Me</h2>
+          <div class="row">
+            <div class="col-md-9"> 
+              <p class="bio-text"> I'm studying Computer Science at the University of Waterloo. Currently in my 2nd year.
+              </p>
+              <p class="bio-text">
+                I like thinking about stuff, in particular sciencey stuff. The absurdities of Quantum Physics intrigues me; I love pondering about the mystifying ideas that it presents especially when it can get spooky. I enjoy physics, but I have more of a love affair with computer science, which is why I chose computer science as my major in University. 
+
+                Being able to build something out of lines of text is a marvel to me and it probably always will be. Computer science is the outlet that allows me to showcase my logical problem solving skills.
+              </p>
+            </div>
+
+            <div class="col-md-3">
+              <img src="htmlpictures/Harsh1.jpg" class="picture-me">
+            </div>
+          </div>
+
+            <div class="row">
+              <div class='col-md-12'>
+                <p class="bio-text">
+                   Although at times when doing my computer sciency stuff, I think about how my life would be different if I was studying physics. How I would have a beard, eat physics people food, start my sentences with "According to the laws of phyiscs", and tell lame physics jokes that only my physics colleagues would understand. I'm 93.1% sure, physics majors are cooler than somputer science majors.However, all things considered, I am not that bummed out about not doing a major in phyiscs. Maybe I'll do a masters in physic.
+                </p>
+              </div>
+            </div>
+      </div>
+
+      <div id="projects" class="container projects">
+        <div class = "row">
+          <h1>Projects</h1>
+          <div class="col-md-4"> 
+            <img src="htmlpictures/mywebsite.png" class="img-responsive" alt="picture of website"/> 
+            <h3>This Website</h3>
+          </div>
+          <div class="col-md-4 android">
+            <img src="htmlpictures/androidApp.png" class=" img-responsive" alt="picture of android app"/> 
+            <h3>Android App</h3>
+          </div>
+          <div class="col-md-4">
+            <img src="htmlpictures/checkers.png" class="img-responsive" width="300" alt="picture of checkers app"/> 
+            <h3>Checkers</h3>
+          </div>
+        </div>
+      </div>
+
+          <!-- &nbsp; -->
+    <div class="row playful" id="playful">
+      <div class="footer-col col-md-12 text-center">
+        <h2 class="playful-title">Playful Nature</h2>
+          <h2>SOME OF MY FAVOURITE THINGS:</h2>
+            <ul class="list-inline">
+              <li>
+                  <img src="htmlpictures/sherlock.png" class="img-responsive playful-img" width="140" alt="picture of Sherlock">
+                  <h5>Sherlock Holmes</h5>
+              </li>
+              <li>
+                  <img src="htmlpictures/suits.png" class="img-responsive" width="320" alt="picture of Suits">
+                  <h5>Suits</h5>
+              </li>
+              <li>
+                  <img src="htmlpictures/thrones.png" class="img-responsive" width="330" alt="picture of GoT">
+                  <h5>Game Of Thrones </h5>
+              </li>
+              <li>
+                  <img src="htmlpictures/nba.png" 
+                  class="img-responsive" width="80" alt="picture of NBA">
+                  <h5>The NBA</h5>
+              </li>
+              <li>
+                  <img src="htmlpictures/batman.png" class="img-responsive" width="240" alt="picture of Batman">
+                  <h5> Batman </h5>
+              </li>
+              <li>
+                  <img src="htmlpictures/Unico_Anello.png" 
+                  class="img-responsive" width="200" alt="picture of LOTR">
+                  <h5>Lord of the Rings</h5>
+              </li>
+              <li>
+                  <img src="htmlpictures/starcraft.png" class="img-responsive" width="280" alt="picture of SC2">
+                  <h5> Starcraft 2</h5>
+              </li>
+              <li>
+                  <img src="htmlpictures/seinfeld.png" class="img-responsive" width="200" alt="picture of Seinfeld">
+                  <h5> Seinfeld </h5>
+              </li>
+              <li>
+                  <img src="htmlpictures/lulu.png" class="img-responsive" width="200" alt="picture of LoL">
+                  <h5>League Of Legends</h5>
+              </li>
+              <li>
+                  <img src="htmlpictures/burger.png" class="img-responsive" width="240" alt="picture of burger">
+                  <h5> Chicken Burgers </h5>
+              </li>
+              
+          </ul>
+      </div>
+    </div>  
+
+<div class="slider">
+
+    <div class="slide active-slide hackathon1">
+      <div class="container">
+        <div class="row slide1">
+          <h1 class="text-center hackathon" id="hackathons">Hackathons</h1>
+  <h4 class="text-center hackathon">I plan to attend some hackathons this year, so this content will be updated soon</h4>
+          <h1>Slides of Projects Coming Soon!</h1>
+        </div>
+      </div>      
+    </div>
+
+    <div class="slide hackathon2">
+      <div class="container">
+        <div class="row slide2">
+          <div class="col-xs-12 slide2">
+            <h1>Hackathons</h1>
+  <h4>I plan to attend some hackathons this year, so this content will be updated soon</h4>
+            <h1>Slides of Projects Coming Soon!</h1>
+          </div>   
+        </div>
+      </div>      
+    </div> 
+
+    <div class="slide hackathon3">
+      <div class="container">
+        <div class="row slide3">
+          <h1>Hackathons</h1>
+  <h4>I plan to attend some hackathons this year, so this content will be updated soon</h4>
+            <h1>Slides of Projects Coming Soon!</h1>
+        </div>
+      </div>      
+    </div>
+
+    <div class="slide hackathon4">
+      <div class="container">
+        <div class="row slide4">
+          <h1>Hackathons</h1>
+  <h4>I plan to attend some hackathons this year, so this content will be updated soon</h4>
+          <h1>Slides of Projects Coming Soon!</h1>
+        </div>
+      </div>      
+  </div> 
+</div>
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="slider-nav">
+
+          <img class="arrow-prev" src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png" alt="arrowleft">
+
+          <ul class="slider-dots">
+            <li class="dot active-dot">&bull;</li>
+            <li class="dot">&bull;</li>
+            <li class="dot">&bull;</li>
+            <li class="dot">&bull;</li>
+          </ul>
+
+          <img class="arrow-next" src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png" alt="arrow right">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="seperator"></div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1>My Goals</h1>
+          <p>My goal in life is to be happy. </p>
+          <p>One of my goals is to create a best-selling app.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h4>As a teenager, a basketball trainer named Ganon Baker inspired me to work hard. Work hard not only in basketball, but in all areas in life. He has 5 elements to success which I believe everyone in the world should include in their lives.</h4>
+        </div>
+      </div>
+
+
+      
+        <div class="row">
+          <div class="col-md-5">
+            <h3 class="text-center">Intensity</h3>
+          </div>
+          <div class="col-md-7">
+            <h4>You must outwork everyone in the country </h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5">
+            <h3 class="text-center">Consistency</h3>
+          </div>
+          <div class="col-md-7">
+            <h4>You must put in work every. single. day.</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5">
+            <h3 class="text-center">Persistence</h3>
+          </div>
+          <div class="col-md-7">
+            <h4>When you don't feel like it, or when the work gets boring or difficult, you still do it with a great attitude</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5">
+            <h3 class="text-center">Faith</h3>
+          </div>
+          <div class="col-md-7">
+            <h4>You must believe that you can succeed. You must believe that you can be the best in the world at what you do</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5">
+            <h3 class="text-center"> Love</h3>
+          </div>
+          <div class="col-md-7">
+            <h4>You must love what you do, or else in the end, none of the sweat and tears will matter</h4>
+          </div>
+        </div>
+
+    </div>
+
+      <!-- <iframe width="600" height="415" src="https://www.youtube.com/embed/3ZncD0UhjTg" frameborder="0" allowfullscreen></iframe> -->
+
+      <!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/3ZncD0UhjTg" frameborder="0" allowfullscreen></iframe> -->
+
+    <div class="seperator"></div>
+
+      <div class="row letsConnect" id="letsConnect">
+          <button class="connect"><h1>Lets Connect</h1> </button>
+      
+        <div class="col-md-3 contact-info">
+          <a href="mailto:harshbindra@live.ca">
+            <img src="htmlpictures/Email-icon-grey.png" alt="email-logo">
+            <p>harshbindra@live.ca</p> 
+          </a>
+        </div>  
+
+          <div class="col-md-3 contact-info">
+            <a href="https://www.github.com/ChasonPickles">
+              <img src="htmlpictures/github.png" alt="github-logo">
+              <p>www.github.com/ChasonPickles</p>
+            </a>
+          </div>
+          
+          <div class="col-md-3 contact-info">
+            <a href="https://www.linkedin.com/profile/view?id=AAMAABJp2IsB53euSSY4zwzXxWdhVLhKuehZJtE&trk=hp-identity-name">
+              <img src="htmlpictures/linkedinIcon.png" alt="linkedin-logo"width="240">
+              <p>Linked In</p>
+            </a>
+          </div>
+
+          <div class="col-md-3 contact-info">
+            <img src="htmlpictures/phone-grey.png" alt="phone-logo" width="180">
+            <p>519-500-1583</p>
+          </div>       
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="js/script.js"></script>
+</body>
+</html>

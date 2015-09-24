@@ -1,0 +1,284 @@
+* {
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    */
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-top: 9px;
+}
+
+
+.android img{
+	width: 50%;
+	margin: auto;
+}
+
+body{
+	background-image: url(csspictures/Cool_background-9.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+button{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#bio{
+	color: white;
+	background: transparent;
+	margin: auto;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+#bio h2{
+	font-size: 50px;
+}
+
+.bio-text{
+	font-family: Merienda-One;
+	font-size: 20px;
+}
+
+.connect{
+	background: transparent;
+}
+
+.contact-info{
+	border: 1px solid white;
+	height: 250px;
+	text-align: center;
+}
+
+.contact-info img {
+	height: 80%;
+	transition: all 0.2s linear;
+}
+
+h1, h4 {
+	color: red;
+	font-family: fantasy;
+}
+
+.hackathon1{
+	background: url(csspictures/hackathon1.jpg);  
+	background-color: transparent;
+	color: blue;
+	font-weight: bold;
+}
+
+.hackathon2{
+	background: url(csspictures/hackathon2.jpg);  	
+	background-color: transparent;
+	color: blue;
+	font-weight: bold;
+}
+
+.hackathon3{
+	background: url(csspictures/hackathon3.png);  	
+	background-color: transparent;
+	color: blue;
+	font-weight: bold;
+}
+
+.hackathon4{
+	background: url(csspictures/hackathon4.jpg);  	
+	background-color: transparent;
+	color: blue;
+	font-weight: bold;
+}
+
+.hackathon{
+
+	font-size: 50px;
+	font-family: Oswald;
+	color: yellow;
+}
+
+#letsConnect{
+	color: whitesmoke;
+	margin-top: 100px;
+	text-align: center;
+}
+
+#footerContacts{
+	/*display: inline-block;*/
+}
+
+.navigationBar{
+	z-index: 99999;
+	background-color: #000000;
+	border:1px solid #ccc;
+	width: 100%; /*the webpage seems to begin a little to the right*/
+	margin-right: 3%;
+    border-width:1px 0;
+    list-style:none;
+    margin:0 auto;
+    padding:0;
+    text-align:center;
+    position: fixed;
+}
+
+.navigationBar li{
+    display:inline;
+}
+
+button {
+	color: #0066FF;
+	background: #000000;
+	border: none;
+}
+
+.picture-me{
+	width: 200px;
+	border-radius: 50%;
+}
+
+
+#projects{
+
+	padding-top: 100px;
+	width: 100%;
+	text-align: center;
+	color: red;
+	background: url(csspictures/Cool_background-4.jpg) !important;
+	z-index: 10;
+	background-color: transparent;
+	padding-bottom: 100px;
+	background: transparent;
+}
+
+
+#projects h1 {
+	font-size: 80px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#playful{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+	background: transparent;
+	font-family: Lobster;
+}
+
+.playful-img{
+	max-height: 200px;
+}
+
+.playful-title{
+	font-size: 40px;
+}
+
+.seperator{
+	text-align: center;
+	padding-top: 75px;
+	margin: auto;
+	width: 75%;
+	border-radius: 2px;
+	border-bottom: 1px solid #ddd;
+}
+ 
+/* ---------------hackathons slideshow -----------------*/
+.slider {
+  width: 100%;
+  height: 470px;
+  text-align: center;
+}
+
+.slide {
+  /*background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;*/
+  background-size: cover;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.active-slide {
+    display: block;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+/* ---------------------------------------------------------- */
+
+#slideshow { 
+	margin-top: 50px;
+    padding: 10px;
+    width: 100%;
+    /*box-shadow: 0 0 20px rgba(0,0,0,0.4); */
+} 
+
+#slideshow div {
+	margin: auto auto;
+	text-align: center;
+}
+
+.slider-nav {
+  display: inline-block;
+  text-align: center;
+  margin: auto auto;
+  width: fill;
+}
+
+.space-after-playful{
+	width: 75%;
+	border-top: 5px black;
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
