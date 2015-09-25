@@ -78,7 +78,7 @@ var main = function () {
          'slow')})
    $(".a4").click(function() {
      $('html,body').animate({
-         scrollTop: $(".playful").offset().top + 40},
+         scrollTop: $(".hobbies").offset().top + 40},
          'slow')})
    $(".a5").click(function() {
      $('html,body').animate({
