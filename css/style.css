@@ -1,9 +1,9 @@
 * {
-    /* -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    */
+    border: solid 1px #CCCCCC !important;
 }
 
 .arrow-prev {
@@ -58,22 +58,52 @@ button{
 
 .connect{
 	background: transparent;
+	color: #3366BB;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+.connect_button{
+	border: 1px solid white;
+	background: transparent;
+}
+.connect-img{
+	margin: auto auto;
+
 }
 
 .contact-info{
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	height: 250px;
 	text-align: center;
 }
 
 .contact-info img {
-	height: 80%;
+	height: 60%;
+	width: auto;
 	transition: all 0.2s linear;
 }
 
 h1, h4 {
 	color: red;
 	font-family: fantasy;
+}
+
+h2{
+	color: #ADD8E6;
+}
+
+h3{
+	color: #ADD8E6;
+	font-size: large;
+	vertical-align: text-bottom;
+	vertical-align: top;
+	text-align: top;
+}
+
+h5{
+
 }
 
 .hackathon1{
@@ -105,15 +135,25 @@ h1, h4 {
 }
 
 .hackathon{
-
 	font-size: 50px;
 	font-family: Oswald;
 	color: yellow;
 }
 
+.key{
+	text-align: center;
+	vertical-align: top;
+
+}
+
+.key-descr{
+	vertical-align: text-bottom;
+	text-align: left;
+	color: #ADD8E6;
+}
+
 #letsConnect{
-	color: whitesmoke;
-	margin-top: 100px;
+	color: #3366BB;
 	text-align: center;
 }
 
@@ -164,7 +204,19 @@ button {
 	background: transparent;
 }
 
+.connect{
+	background: url(csspictures/Cool_background-4.jpg) !important;
+	color: #3366BB;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	z-index: 12;
+	background: transparent;
+}
 
+p {
+    white-space: normal;
+}
 #projects h1 {
 	font-size: 80px;
 	text-align: center;
@@ -185,6 +237,11 @@ button {
 
 .playful-title{
 	font-size: 40px;
+}
+
+.my-goals{
+	text-align: center;
+	color: yellow;
 }
 
 .seperator{

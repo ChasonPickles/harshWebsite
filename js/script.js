@@ -57,15 +57,12 @@ var main = function () {
     }
    });
 
-  // $('contact-info').mouseover(function(){
-  // 	(this)
-  // })
-    $(".contact-info").mouseover(function(){
-      $(this).css("background-color", "black");
-});
-	$(".contact-info").mouseleave(function() {
-      $(this).css("background-color", "transparent");
-});
+//  $(".contact-info").mouseover(function(){
+//       $(this).css("background-color", "black");
+// });
+// 	$(".contact-info").mouseleave(function() {
+//       $(this).css("background-color", "transparent");
+// });
 
    $(".a1").click(function() {
      $('html,body').animate({
@@ -85,7 +82,7 @@ var main = function () {
          'slow')})
    $(".a5").click(function() {
      $('html,body').animate({
-         scrollTop: $(".hackathon").offset().top},
+         scrollTop: $(".hackathon").offset().top - 100},
          'slow')})
    $(".a6").click(function() {
      $('html,body').animate({
@@ -93,7 +90,7 @@ var main = function () {
          'slow')})
    $(".a7").click(function() {
      $('html,body').animate({
-         scrollTop: $(".letsConnect").offset().top},
+         scrollTop: $(".connect").offset().top-35},
          'slow')})
 
 }
