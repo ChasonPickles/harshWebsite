@@ -2,6 +2,17 @@
 /*global $, jQuery, alert*/
 
 var main = function () { 
+
+    jQuery(document).ready(function ($) {
+        var options = {
+            $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$,
+                $ChanceToShow: 2
+            }
+        };
+        var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+    });
+
     $("#slideshow > div:gt(0)").hide();
 
 	setInterval(function() { 
@@ -78,21 +89,16 @@ var main = function () {
          'slow')})
    $(".a4").click(function() {
      $('html,body').animate({
-         scrollTop: $(".hobbies").offset().top + 40},
+         scrollTop: $(".my-goals").offset().top - 100},
          'slow')})
    $(".a5").click(function() {
      $('html,body').animate({
-         scrollTop: $(".hackathon").offset().top - 100},
+         scrollTop: $(".hobbies").offset().top - 100},
          'slow')})
    $(".a6").click(function() {
      $('html,body').animate({
-         scrollTop: $(".letsConnect").offset().top},
-         'slow')})
-   $(".a7").click(function() {
-     $('html,body').animate({
          scrollTop: $(".connect").offset().top-35},
          'slow')})
-
 }
 
 $(document).ready(main);

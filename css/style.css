@@ -93,22 +93,13 @@ h1, h4 {
 }
 
 h2{
-	color: #ADD8E6;
-	margin: auto auto;
+	margin-bottom: 10px;
 }
 
-h3{
-	color: #ADD8E6;
-	font-size: large;
-	vertical-align: text-bottom;
-	vertical-align: top;
-	text-align: top;
+.hack-slider{
+	margin-left: auto;
+	margin-right: auto;
 }
-
-h5{
-
-}
-
 .hackathon1{
 	background: url(csspictures/hackathon1.jpg);  
 	background-color: transparent;
@@ -144,6 +135,7 @@ h5{
 }
 
 .hobbies{
+
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -160,10 +152,13 @@ h5{
 .key{
 	text-align: center;
 	vertical-align: top;
-
+	font-size: 30px;
+	color: #ADD8E6;
+	font-size: 30px;
 }
 
 .key-descr{
+	font-size: 20px;
 	position: relative;
 	vertical-align: text-bottom;
 	vertical-align: bottom;
@@ -261,6 +256,10 @@ p {
 	margin-top: 150px;
 	text-align: center;
 	color: yellow;
+}
+
+.my-goals{
+	font-size: 20px;
 }
 
 .seperator{
